@@ -26,6 +26,7 @@ Developed by: LOGESH B
 RegisterNumber: 24900577  
 */
 ```
+```.py
 import numpy as np  
 from sklearn.datasets import fetch_california_housing  
 from sklearn.linear_model import SGDRegressor  
@@ -55,6 +56,7 @@ mse = mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:",mse)  
 
 print("\nPredictions:\n",y_pred[:5])  
+```
 ## Output:
 ![Screenshot 2024-10-31 175237](https://github.com/user-attachments/assets/73e64961-6ad0-4a40-9dab-8651325f0e97)
 
